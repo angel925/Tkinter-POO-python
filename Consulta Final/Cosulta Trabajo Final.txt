@@ -1,0 +1,122 @@
+1)Que esProgramación orientada Objetos:
+
+La programación orientada a objetos es un paradigma de programación que viene a innovar la forma de obtener resultados. Los objetos manipulan los datos de 
+entrada para la obtención de datos de salida específicos, donde cada objeto ofrece una funcionalidad especial.
+
+2)Que es Clase:
+Las clases proveen una forma de empaquetar datos y funcionalidad juntos. 
+Al crear una nueva clase, se crea un nuevo tipo de objeto, permitiendo crear nuevas 
+instancias de ese tipo. Cada instancia de clase puede tener atributos adjuntos para 
+mantener su estado. Las instancias de clase también pueden tener métodos (definidos por su clase) para modificar su estado.
+
+3)Que es Objeto o Instancia de clase:
+Una clase es la estructura de un objeto, es decir, la definición de todos los elementos que 
+componen un objeto. Un objeto es, por lo tanto, el "resultado" de una clase. En realidad, 
+un objeto es una instancia de una clase, por lo que se pueden intercambiar los términos objeto o instancia (o incluso evento).
+
+Una clase se compone de dos partes: atributos y métodos. Los atributos (denominados, 
+por lo general, datos miembros) se refieren al estado del objeto. Los métodos 
+(denominados, por lo general, funciones miembros) son funciones que pueden aplicarse a objetos.
+
+Se llama instancia a todo objeto que derive de algún otro. De esta forma, 
+todos los objetos son instancias de algún otro, 
+menos la clase Object que es la madre de todas.
+
+Clases: Descripción de de objeto. Consta de una serie de métodos y datos que resumen las 
+características de este objeto. Definir clases permite trabajar con código reutilizable. Puesto que desde 
+una clase se puede crear una instancia y así reutilizar el código escrito para esta si tener que volver a 
+escribir el código para la instancia. La instancia toma el patrón de la clase padre. Sin embargo, las variables son idependientes.
+
+
+4)Que es Atributos de clase y de objeto:
+Los atributos de una clase son definidos según esta sintaxis:
+
+         [modifVisibilidad] [modifAtributo] tipo nombreVariable [= valorInicial] ;
+         
+Donde nombreVariable es el nombre que daremos a la variable, siendo un nombre válido según las normas del lenguaje:
+
+por convención, en Java, los nombres de las variables empiezan con una letra minúscula 
+(los nombres de las clases empiezan con una letra mayúscula).
+Un nombre de variable Java: debe ser un identificador legal de Java comprendido en una 
+serie de caracteres Unicode. Unicode es un sistema de codificación que soporta texto escrito en 
+distintos lenguajes humanos. Unicode permite la codificación de 34.168 caracteres. Esto le 
+permite utilizar en sus programas Java varios alfabetos como el Japonés, el Griego, el Ruso o el Hebreo. 
+Esto es importante para que los programadores pueden escribir código en su lenguaje nativo.
+no puede ser el mismo que una palabra clave
+no deben tener el mismo nombre que otras variables cuyas declaraciones aparezcan en el mismo ámbito.
+tipo es el tipo de la variable, pudiendo ser un tipo básico o un objeto de una clase o de un interfaz. 
+También puede ser una matriz o vector
+
+5)Que es Constructor de una clase:
+Un constructor es un metodo especial que Python llama para instanciar un objeto 
+usando las definiciones encontradas en tu clase. Python usa este constructor para 
+crear tareas como la inicialización (asignar valores a variables), que se necesiten para iniciar. 
+Los constructores tambien pueden verificar que tambien hay suficientes recursos para que el objecto desempeñe 
+cualquier otra tarea para iniciar.
+
+Le nombre de constructor es siempre el mismo, por ejemplo __init__(). 
+El constructor puede aceptar argumentos cuando es necesario crear objetos. 
+Cuando tu puedas crear una clase sin la necesidad de un constructor, Python automaticamente 
+crea un constructor vacio que no hace nada. Cada clase debe tener un constructur aun cuando 
+simplemente dependa del constructor defacto.
+
+6)Que es Métodos:
+Son aquellas funciones que permite efectuar el objeto y que nos rinden algún tipo de 
+servicio durante el transcurso del programa.
+Determinan a su vez como va a responder el objeto cuando recibe un mensaje.
+
+7)Ques es herencia, herencia múltiple:
+Mecanismo para compartir automáticamente métodos y datos entre classes, subclases y objetos.
+Permite crear nuevas clases introduciendo las variaciones con respecto a su clase padre.
+Herencia simple: una subclase puede herecar datos y métodos de una clase simple así como añadir 
+o sustraer ciertos comportamientos.
+
+Herencia múltiple:posibilidad de adquirir métodos y datos de varias clases simultáneamente.
+
+8)Ques es Encapsulación:
+Define el comportamiento de una clase u objeto que tiene dentro de él todo tipo de métodos 
+y datos pero que solo es accesible mediante el paso de mensajes. y los datos a través de los métodos del objeto/clase.
+
+9)Que es Setters (set, get):
+es una estructura de datos equivalente a conjuntos en matemáticas. 
+Puede consistir en varios elementos; el orden de los elementos en un conjunto no está definido. 
+Puede agregar y eliminar elementos de un conjunto, puede iterar los elementos del conjunto, puede 
+realizar operaciones estándar en conjuntos (unión, intersección, diferencia). Además de eso, puedes 
+verificar si un elemento pertenece a un conjunto.
+
+El método de diccionario de Python get () devuelve un valor para la clave dada.
+ Si la clave no está disponible, devuelve el valor predeterminado Ninguno
+
+
+En Python, getters y setters no son los mismos que los de otros lenguajes de programación orientados a objetos. 
+Básicamente, el propósito principal de usar getters y setters en programas orientados a objetos es asegurar la encapsulación de datos. 
+Las variables privadas en python no son realmente campos ocultos como en otros lenguajes orientados a objetos. 
+Getters y Setters en python se usan a menudo cuando:
+
+Utilizamos getters y setters para agregar lógica de validación para obtener y establecer un valor.
+Para evitar el acceso directo a un campo de clase, es decir, un usuario externo no puede acceder directamente
+a las variables privadas ni modificarlas.
+
+10)Ques Modificadores de acceso(private,public,protected):
+Los miembros públicos (generalmente métodos declarados en una clase) son accesibles desde fuera de la clase. 
+Se requiere el objeto de la misma clase para invocar un método público. Esta disposición de variables de instancia 
+privada y métodos públicos garantiza el principio de encapsulación de datos.
+
+Los miembros protegidos de una clase son accesibles desde dentro de la clase y también están disponibles para sus subclases. 
+Ningún otro entorno tiene acceso permitido. Esto permite que los recursos específicos de la clase principal sean heredados por la clase secundaria.
+
+Python no tiene ningún mecanismo que restrinja efectivamente el acceso a ninguna variable o método de instancia. 
+Python prescribe una convención de prefijar el nombre de la variable / método con un subrayado simple o doble para 
+emular el comportamiento de los especificadores de acceso privado y protegido.
+
+Todos los miembros en una clase de Python son públicos por defecto. Se puede acceder a cualquier miembro desde fuera del entorno de clase
+
+11)Que es Polimorfismo:
+Los objetos responden a los mensajes que se les envían. Un mismo mensaje puede ser 
+interpretado o dar paso a distintas acciones según que objeto es el destinatario.
+Con este sistema el emisor se desentiende de los detalles de la ejecución (aunque 
+el programador ha de saber en todo momento cuales son las consecuencias de ese mensaje).
+
+
+
+
